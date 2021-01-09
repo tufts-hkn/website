@@ -111,6 +111,23 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/header.js"></script>
+    
+    <!-- Header script -->
+    <script>
+      window.onscroll = function () {
+        sticky_header();
+      };
+
+      var header = document.getElementById("header");
+      var sticky = header.offsetTop;
+
+      function sticky_header() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+    </script>
   </body>
 </html>
