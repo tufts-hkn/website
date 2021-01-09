@@ -1,0 +1,33 @@
+body {
+  font-family: "Lato", sans-serif !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+ul {
+  font-size: 15px;
+  padding: 1px;
+}
+
+.container {
+  padding: 5px !important;
+  max-width: 1000px;
+  overflow-x: hidden;
+}
+
+#hkn-logo {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+#about-content {
+  padding: 20px;
+}
+
+#officers {
+  width: 100%;
+}
